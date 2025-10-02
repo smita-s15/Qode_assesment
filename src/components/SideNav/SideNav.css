@@ -1,6 +1,6 @@
 .sidenav {
   width: 220px;
-  background-color: #f9fafb; /* light sidebar background */
+  background-color: #eef0f2; /* light sidebar background */
   color: #111827; /* dark text */
   height: 100vh;
   position: fixed;
@@ -22,18 +22,21 @@
   align-items: center;
   padding: 12px 20px;
   cursor: pointer;
-  transition: background 0.2s, color 0.2s;
+  transition: all 0.2s, color 0.2s;
+  margin: 10px 10px;
 }
 
 .sidenav li:hover {
-  background-color: #e5e7eb; /* hover background */
-  color: #1d4ed8; /* hover text color */
+  background-color: #d6d9de;
+  color: #5d6c8f;
+  border-radius: 10px;
 }
 
 .sidenav li.active {
-  background-color: #2563eb; /* active background */
-  color: #fff; /* active text color */
+  background-color: #5d6c8f;
+  color: #fff;
   font-weight: 600;
+  border-radius: 10px;
 }
 
 .sidenav li .icon {

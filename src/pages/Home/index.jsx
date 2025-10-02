@@ -14,9 +14,7 @@ function Home() {
       {/* Quick Links */}
       <div className="blog-grid intro-grid">
         {introBlogs.map((blog) => (
-          <div key={blog.id}>
-            <BlogCard {...blog} variant="intro" />
-          </div>
+          <BlogCard {...blog} variant="intro" key={blog.id} />
         ))}
       </div>
 
@@ -24,13 +22,12 @@ function Home() {
       <h2 className="section-title latest-title">Latest Posts</h2>
       <div className="blog-grid latest-grid">
         {blogs.map((blog) => (
-          <div key={blog.id}>
-            <BlogCard
-              {...blog}
-              variant="latest"
-              onReadMore={() => setActiveBlog(blog)}
-            />
-          </div>
+          <BlogCard
+            {...blog}
+            variant="latest"
+            onReadMore={() => setActiveBlog(blog)}
+            key={blog.id}
+          />
         ))}
       </div>
 
