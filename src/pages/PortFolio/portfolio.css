@@ -1,0 +1,50 @@
+.portfolio-page {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.trail_table_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trail_table_title span {
+  cursor: pointer;
+  color: rgb(13, 92, 141);
+  font-size: 16px;
+}
+.title_portfolio {
+  margin: 0;
+  font-size: 20px;
+}
+
+.note_title {
+  color: gray;
+  font-weight: 500;
+  margin: 0;
+  font-size: 13px;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+  font-size: 13px;
+  color: blue;
+}
+
+.reset_icons_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.chart_title_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

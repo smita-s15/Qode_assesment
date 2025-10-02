@@ -1,0 +1,37 @@
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.trailing-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.trailing-table th,
+.trailing-table td {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+.trailing-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  color: #111;
+}
+
+.trailing-table tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.trailing-table tbody tr:hover {
+  background-color: #f0f8ff;
+}
+
+.scheme-name {
+  text-align: left;
+  font-weight: 500;
+  color: #0066cc;
+}
